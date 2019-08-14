@@ -27,7 +27,7 @@ class Netgo_Cod_CodController extends Mage_Core_Controller_Front_Action
 		$codObj = Mage::getModel('netgo_cod/cod')->getCollection()->addFieldToFilter('zipcode', trim($cod));
 		$codData = $codObj->getData();
 		 
-		if($codData[0]['zipcode'] != ''){
+		if($codData[0]['zipcode'] != '' && $codData[0]['status'] != 0){
 			echo '<span class="cod-suc">'.$msgData['suc_msg'];
 			if($codData[0]['days'] != ''){
 				echo ' within '.$codData[0]['days'].' days ';
