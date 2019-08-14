@@ -5,7 +5,7 @@
  *
  * @copyright   Copyright (c) 2015
  * @company     NetAttingo Technologies
- * @package     Netgo_Pricereminder
+ * @package     Netgo_Cod
  * @author 		NetGo
  * @dev			netattingomails@gmail.com
  *
