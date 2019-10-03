@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Netgo_Cod",
+    "name": "openmage-module-fostering\/netgo_cod",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension helps customer to check the product availability in a particular area.",
     "authors": [
